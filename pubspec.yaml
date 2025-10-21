@@ -1,0 +1,20 @@
+name: task_manager_cw3
+description: A simple task manager for CSC 4360/6370 CW03
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.1.1
+  # No other packages — uses StatefulWidget + setState as required
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
